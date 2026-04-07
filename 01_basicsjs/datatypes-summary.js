@@ -30,4 +30,32 @@ const Myfunction = function(){
     console.log("Hello world");
 }
 
-console.log(typeof myObj);
+console.log(typeof id);
+
+//+++++++++++++++++++++++++++++++++++++++++++
+
+//Memory
+
+// Stack (Primitive), Heap (Non-primitive)
+
+let MyYoutubeName = "Akanimelover07"
+let anothername = MyYoutubeName
+anothername = "adityakumardotcom"
+
+console.log(MyYoutubeName);
+console.log(anothername);
+
+let userOne= {
+    email: "aditya@gmail.com",
+    upid: "ak@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "ak@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
