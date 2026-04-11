@@ -44,11 +44,33 @@ const user = [
 ]
 
 user[1].email
-console.log(InstaUser);
+// console.log(InstaUser);
 
-console.log(Object.keys(InstaUser));
-console.log(Object.values(InstaUser));
-console.log(Object.entries(InstaUser));
+// console.log(Object.keys(InstaUser));
+// console.log(Object.values(InstaUser));
+// console.log(Object.entries(InstaUser));
 
-console.log(InstaUser.hasOwnProperty("isLogged"));
+// console.log(InstaUser.hasOwnProperty("isLogged"));
 
+const course = {
+    coursename: "JS Advanced",
+    price: "99",
+    courseInstructor: "aditya"
+}
+
+//course.courseInstructor
+//Deconstructoring
+const {courseInstructor: Instructor} = course
+console.log(Instructor);
+
+// {
+//     "name": "ak",
+//     "coursenm": "welcome to js",
+//     "price": "free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
