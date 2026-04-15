@@ -1,5 +1,5 @@
 //Immediately Invoked Function (IIFE)
-//Used to remove global scope pollution
+//Used to remove global scope pollution to reduce usage of same variable
 
 (function chai(){
     //Named IIFE
